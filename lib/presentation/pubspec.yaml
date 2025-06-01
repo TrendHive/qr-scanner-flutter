@@ -1,0 +1,35 @@
+publish_to: none
+
+name: presentation
+description: "A new Flutter package project."
+version: 0.0.1
+# homepage:
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+    path: ../core
+  core_ui:
+    path: ../core_ui
+  domain:
+    path: ../domain
+  domain_ui:
+    path: ../domain_ui
+  go_router: ^15.1.2
+  flutter_bloc: ^9.1.1
+  mobile_scanner: ^7.0.0
+  url_launcher: ^6.3.1
+  firebase_core: ^3.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
