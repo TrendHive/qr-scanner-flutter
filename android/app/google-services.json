@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771741274820",
+    "project_id": "qr-scanner-c6beb",
+    "storage_bucket": "qr-scanner-c6beb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771741274820:android:c9b4281a23dfcb49e8ef91",
+        "android_client_info": {
+          "package_name": "com.trendhive.qr_scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSJKLh0U7lBNn09S3ENzT_CsbXadR3GoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+name: domain_ui
+description: "QR Scanner's domain UI library."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+    path: ../core
+  core_ui:
+    path: ../core_ui
+  domain:
+    path: ../domain
+  google_fonts: ^6.2.1
+  go_router: ^15.1.2
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
