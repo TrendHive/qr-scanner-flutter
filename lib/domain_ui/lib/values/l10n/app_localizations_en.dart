@@ -10,4 +10,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get copyMessage => 'Copied to clipboard!';
+
+  @override
+  String get historyTitle => 'History';
+
+  @override
+  String get clickedTitle => 'Clicked';
+
+  @override
+  String get emptyHistory => 'History is empty';
+
+  @override
+  String get emptyClicked => 'No items clicked yet';
 }

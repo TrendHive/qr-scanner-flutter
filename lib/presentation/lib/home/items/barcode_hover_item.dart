@@ -92,24 +92,30 @@ class _BarcodeHoverItemState extends State<BarcodeHoverItem> {
     return Positioned(
       left: scaleAndOffset().dx,
       top: scaleAndOffset().dy,
-      child: InkWell(
-        onTap: widget.onTap,
-        child: QRScannerContainer(
-          width: scaleSize().width,
-          height: scaleSize().height,
-          decoration: BoxDecoration(
-            color: QRScannerColor(
-              context,
-            ).primaryButton.withValues(alpha: BaseDimens.opacity.small),
-            border: Border.all(color: QRScannerColor(context).primaryButton),
-          ),
-          child: Center(
-            child: QRScannerText(
-              uri != null && (uri?.hasAbsolutePath ?? false)
-                  ? uri!.host
-                  : widget.barcode.rawValue ?? CoreConstants.empty,
-              style: TextStyle(color: QRScannerColor.white),
-              textAlign: TextAlign.center,
+      child: AnimatedOpacity(
+        duration: Durations.medium2,
+        opacity: BaseDimens.opacity.full,
+        child: GestureDetector(
+          onTap: widget.onTap,
+          child: QRScannerContainer(
+            padding: EdgeInsets.all(BaseDimens.padding.medium),
+            width: scaleSize().width,
+            height: scaleSize().height,
+            decoration: BoxDecoration(
+              color: QRScannerColor(
+                context,
+              ).primaryButton.withValues(alpha: BaseDimens.opacity.small),
+              border: Border.all(color: QRScannerColor(context).primaryButton),
+              borderRadius: BorderRadius.circular(BaseDimens.radius.xxMedium),
+            ),
+            child: Center(
+              child: QRScannerText(
+                uri != null && (uri?.hasAbsolutePath ?? false)
+                    ? uri!.host
+                    : widget.barcode.rawValue ?? CoreConstants.empty,
+                style: TextStyle(color: QRScannerColor.white),
+                textAlign: TextAlign.center,
+              ),
             ),
           ),
         ),
