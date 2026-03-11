@@ -1,1 +1,0 @@
- /Users/ogzatechmacmini/Documents/GitHub/qr-scanner-flutter/.dart_tool/flutter_build/190334251ba5a763e794d8657fb01b1a/dart_build_result.json: 
