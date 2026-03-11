@@ -1,17 +1,28 @@
+# Flutter-specific
 flutter/ephemeral/
+ephemeral/
 
-# Visual Studio user-specific files.
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+# CMake build outputs
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+cmake_install.cmake
+install/
+out/
 
-# Visual Studio build-related files.
-x64/
-x86/
+# Visual Studio generated files
+.vs/
+AppPackages/
+BundleArtifacts/
+Generated\ Files/
+_deps/
 
-# Visual Studio cache files
-# files ending in .cache can be ignored
-*.[Cc]ache
-# but keep track of directories ending in .cache
-!*.[Cc]ache/
+# Microsoft C++ MSBuild and compiler outputs
+*.obj
+*.lib
+*.pdb
+*.exp
+*.ilk
+*.exe
+*.dll
