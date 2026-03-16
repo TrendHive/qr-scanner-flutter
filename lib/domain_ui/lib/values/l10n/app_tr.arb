@@ -1,4 +1,8 @@
 {
     "@@locale": "tr",
-    "copyMessage": "Copied to clipboard!"
+    "copyMessage": "Panoya kopyalandı!",
+    "historyTitle": "Geçmiş",
+    "clickedTitle": "Tıklananlar",
+    "emptyHistory": "Geçmiş boş",
+    "emptyClicked": "Henüz tıklanan yok"
 }

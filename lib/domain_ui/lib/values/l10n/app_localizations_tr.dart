@@ -9,5 +9,17 @@ class AppLocalizationsTr extends AppLocalizations {
   AppLocalizationsTr([String locale = 'tr']) : super(locale);
 
   @override
-  String get copyMessage => 'Copied to clipboard!';
+  String get copyMessage => 'Panoya kopyalandı!';
+
+  @override
+  String get historyTitle => 'Geçmiş';
+
+  @override
+  String get clickedTitle => 'Tıklananlar';
+
+  @override
+  String get emptyHistory => 'Geçmiş boş';
+
+  @override
+  String get emptyClicked => 'Henüz tıklanan yok';
 }

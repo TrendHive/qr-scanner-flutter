@@ -1,5 +1,13 @@
 {
     "@@locale": "en",
     "copyMessage": "Copied to clipboard!",
-    "@copyMessage": {}
+    "@copyMessage": {},
+    "historyTitle": "History",
+    "@historyTitle": {},
+    "clickedTitle": "Clicked",
+    "@clickedTitle": {},
+    "emptyHistory": "History is empty",
+    "@emptyHistory": {},
+    "emptyClicked": "No items clicked yet",
+    "@emptyClicked": {}
 }

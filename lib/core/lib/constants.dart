@@ -22,4 +22,8 @@ class CoreConstants {
   static const String percentage = "%";
   static const String asterisk = "*";
   static const Map<String, dynamic> emptyMap = {};
+  static final RegExp urlPattern = RegExp(
+    r'^((https?:\/\/)|(www\.))?([a-z0-9-]+\.)+[a-z]{2,}(\/.*)*$',
+    caseSensitive: false,
+  );
 }
